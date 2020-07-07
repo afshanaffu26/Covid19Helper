@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity"
+    android:background="@color/colorWhite"
+    android:id="@+id/drawer_layout">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                app:titleTextColor="@color/colorWhite"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:background="@color/colorPrimary"/>
+            <!--
+              android:background="@android:color/white"/>
+    -->
+        </com.google.android.material.appbar.AppBarLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:text="COVID-19, MERS &amp; SARS"
+                        android:textColor="@color/myTextColor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="In January 2020, a novel coronavirus, SARS-CoV-2, was identified as the cause of an outbreak of viral pneumonia in Wuhan, China. The disease, later named coronavirus disease 2019 (COVID-19), subsequently spread globally. In the first three months after COVID-19 emerged nearly 1 million people were infected and 50,000 died.The Centers for Disease Control and Prevention (CDC) developed a test to diagnose COVID-19 in respiratory and serum samples. NIAID also is accelerating efforts to develop additional diagnostic tests for COVID-19. These tests are helping facilitate preclinical studies and aid in the development of medical countermeasures.NIAID COVID-19 research efforts build on earlier research on severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS), which also are caused by coronaviruses. MERS is a viral respiratory disease that was first reported in Saudi Arabia in September 2012 and has since spread to 27 countries, according to the World Health Organization. Some people infected with MERS coronavirus (MERS-CoV) develop severe acute respiratory illness, including fever, cough, and shortness of breath. From its emergence through January 2020, WHO confirmed 2,519 MERS cases and 866 deaths (about 1 in 3). Among all reported cases in people, about 80% have occurred in Saudi Arabia. Only two people in the United States have tested positive for MERS-CoV, both of whom recovered. They were healthcare providers who lived in Saudi Arabia, where they likely were infected before traveling to the U.S., according to the CDC.Infection with SARS coronavirus (SARS-CoV) can cause a severe viral respiratory illness. SARS was first reported in Asia in February 2003, though cases subsequently were tracked to November 2002. SARS quickly spread to 26 countries before being contained after about four months. More than 8,000 people fell ill from SARS and 774 died. Since 2004, there have been no reported SARS cases.Research evidence suggests that SARS-CoV and MERS-CoV originated in bats, and it is likely that SARS-CoV-2 did as well. SARS-CoV then spread from infected civets to people, while MERS-CoV spreads from infected dromedary camels to people. Scientists are trying to determine how SARS-CoV-2 spread from an animal reservoir to people." />
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_layout"/>
+</androidx.drawerlayout.widget.DrawerLayout>
+

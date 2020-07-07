@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/CardView.Light"
+    android:layout_margin="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="12dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            android:text="Title" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/appicon"
+            android:layout_marginRight="16dp" />
+        <ru.embersoft.expandabletextview.ExpandableTextView
+            android:id="@+id/txtDesc"
+            android:layout_width="0dp"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+            app:etv_animationTime="20"
+            app:etv_expandLines="0"
+            app:etv_showLine="false"
+            app:etv_textContentSize="14sp"
+            app:etv_textExpand="Show more"
+            app:etv_textShrink="Show less"
+            app:etv_textContentColor="#A9A9A9"
+            app:etv_textStateColor="@color/colorAccent">
+
+        </ru.embersoft.expandabletextview.ExpandableTextView>
+<!--
+        <Button
+            android:id="@+id/btnFav"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/ic_favorite_24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <Button
+            android:id="@+id/btnReply"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnFav"
+            android:background="@drawable/ic_reply_24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

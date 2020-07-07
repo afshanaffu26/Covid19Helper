@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+    <TableRow>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_margin="1dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mildorrecovered"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_margin="1dp"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/criticalordeath"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:background="#ffffff"
+        android:layout_margin="1dp"
+        android:text="TextView" />
+
+        </TableRow>
+    </TableLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="splash_name">Covid-19 Helper</string>
+    <string name="openNavDrawer">Navigation Bar open</string>
+    <string name="closeNavDrawer">Navigation Bar closed</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_sett">Settings</string>
+    <string name="nav_world">World</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="security_questions">
+        <item>Select security question</item>
+        <item>Where did you go for your first holiday?</item>
+        <item>What is the name of your childhood best friend?</item>
+        <item>What is the model of your first car?</item>
+        <item>What is the name of your pet?</item>
+        <item>What is the name of your oldest nephew?</item>
+    </string-array>
+
+    <string name="title1">Ottawa Public Health collecting race-based data on COVID-19; no timeline for release</string>
+    <string name="desc1">The issue of cataloging the ethnicity of COVID-19 patients has been raised at all levels of government in Canada, as public health officials in the U.S. noted the virus has been disproportionately affecting black and other racialized communities. Rideau-Rockcliffe Councillor Rawlson King had requested Ottawa Public Health gather such data back in April. </string>
+    <string name="title2">\'This could implode\': The dangers of hyping up a coronavirus vaccine</string>
+    <string name="desc2">The world is desperate for a coronavirus vaccine.Projects to find one are well underway across the world. All the while, the public is fed regular updates about the progress of each scheme.But are the scientists involved, in fact, setting us up to be disappointed? </string>
+    <string name="title3">India reports 7,466 COVID-19 cases, 175 deaths in 24 hours; Jan-March GDP figures paint a gloomy picture ahead</string>
+    <string name="desc3">The number of COVID-19 cases in India climbed to 1,65,799 while toll reached 4,706 with the country registering over 7,000 new cases. According to the health ministry, India registered 175 deaths and a record 7,466 fresh coronavirus infection cases in the last 24 hours till Friday 8 am.The number of active COVID-19 cases stood at 89,987, while 71,105 people have recovered so far and one patient has migrated, data from the ministry showed.</string>
+
+    <string name="ggTitle1">For Workplaces</string>
+    <string name="ggDesc1">Across Canada, we are changing the way we work to prevent the spread of COVID-19. For some workplaces, this may mean changing hours of operation, closing for a period of time or working from home. Others continue to go to work because their jobs are essential to keeping Canada functioning during this outbreak.  Essential workers are considered critical to preserving life, health and basic societal functioning. This includes, but is not limited to:  first responders health care workers hydro and natural gas critical infrastructure workers, workers who are essential for supplying society with critical goods such as food and medicines All employees should understand and comply with the infection prevention policies and practices in place in their workplaces. Employers should use the risk-informed decision-making guidelines for workplaces and businesses during the COVID-19 pandemic.  Employers and employees will need to work together to protect their own health and their clients\' health, as well as deliver essential services.</string>
+    <string name="ggTitle2">For Induviduals</string>
+    <string name="ggDesc2">Canadians should continue to think ahead about the actions that they can take to stay healthy and prevent the spread of any illness, especially respiratory infections.Now and always during cold and flu season, stay home if you are sick. Encourage those you know are sick to stay home until they no longer have symptoms.Since respiratory viruses, such as the one that causes COVID-19, are spread through contact, change how you greet one another. Instead of a handshake, a kiss or a hug, a friendly wave or elbow bump is less likely to expose you to respiratory viruses.Practise frequent hygiene, which includes proper hand washing and coughing and sneezing etiquette. Clean and disinfect frequently touched objects and surfaces, such as toys and door handles.These are the most important ways that you can protect yourself and your family from respiratory illness, including COVID-19.</string>
+    <string name="history">In January 2020, a novel coronavirus, SARS-CoV-2, was identified as the cause of an outbreak of viral pneumonia in Wuhan, China. The disease, later named coronavirus disease 2019 (COVID-19), subsequently spread globally.
+        \n\nIn the first three months after COVID-19 emerged nearly 1 million people were infected and 50,000 died.\nThe Centers for Disease Control and Prevention (CDC) developed a test to diagnose COVID-19 in respiratory and serum samples.
+        \nNIAID also is accelerating efforts to develop additional diagnostic tests for COVID-19. \n\nThese tests are helping facilitate preclinical studies and aid in the development of medical countermeasures.NIAID COVID-19 research efforts
+        build on earlier research on severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS), which also are caused by coronaviruses. \n\nMERS is a viral respiratory disease that was first reported in Saudi Arabia in September 2012 and has since spread to 27 countries, according to the World Health Organization. Some people infected with MERS coronavirus (MERS-CoV) develop severe acute respiratory illness, including fever, cough, and shortness of breath. From its emergence through January 2020, WHO confirmed 2,519 MERS cases and 866 deaths (about 1 in 3). Among all reported cases in people, about 80% have occurred in Saudi Arabia. Only two people in the United States have tested positive for MERS-CoV, both of whom recovered. They were healthcare providers who lived in Saudi Arabia, where they likely were infected before traveling to the U.S., according to the CDC.Infection with SARS coronavirus (SARS-CoV) can cause a severe viral respiratory illness.
+        \n\nSARS was first reported in Asia in February 2003, though cases subsequently were tracked to November 2002. SARS quickly spread to 26 countries before being contained after about four months. More than 8,000 people fell ill from SARS and 774 died.
+        Since 2004, there have been no reported SARS cases.Research evidence suggests that SARS-CoV and MERS-CoV originated in bats, and it is likely that SARS-CoV-2 did as well. SARS-CoV then spread from infected civets to people, while MERS-CoV spreads from infected dromedary camels to people. Scientists are trying to determine how SARS-CoV-2 spread from an animal reservoir to people.</string>
+</resources>

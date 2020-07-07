@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="COVID-19 HELPER">
+    <menu>
+        <item android:title="Home" android:icon="@drawable/home" android:id="@+id/menu1home"/>
+        <item android:title="History" android:icon="@drawable/history" android:id="@+id/menu1history"/>
+        <item android:title="Global News" android:icon="@drawable/news" android:id="@+id/menu1news"/>
+        <item android:title="Self Assessment" android:icon="@drawable/test" android:id="@+id/menu1test"/>
+    </menu>
+</item>
+    <item android:title="STAY HOME STAY SAFE!">
+        <menu>
+            <item android:title="Symptoms &amp; Treatment" android:icon="@drawable/doctors" android:id="@+id/menu2symps"/>
+            <item android:title="Govt. Guidelines" android:icon="@drawable/rules" android:id="@+id/menu2govt"/>
+        </menu>
+    </item>
+    <item android:title="Logout" android:icon="@drawable/logout" android:id="@+id/menu3logout"/>
+</menu>
