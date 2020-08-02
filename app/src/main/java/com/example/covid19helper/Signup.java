@@ -138,4 +138,8 @@ public class Signup extends AppCompatActivity implements AdapterView.OnItemSelec
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {}
+
+    public void navToLogin(View view) {
+        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+    }
 }
